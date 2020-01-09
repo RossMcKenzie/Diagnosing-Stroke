@@ -17,7 +17,7 @@ After tuning the hyper parameters the cross validation returned an average ROC-A
 
 ### Results
 
-![](Figure_1.png)
+![](Figure_1.PNG)
 ***Figure 1: ROC of Stroke prediction model.*** Demonstrates that the model performs (blue, unbroken) better than a no-skill classifier (orange, dashed) at all thresholds outside of the extremes. ROC-AUC metric = 0.867.
 
 The model successfully out-performed a no-skill classifier with a ROC-AUC metric of 0.867 when predicting the test data labels. The model produced a higher true positive rate than false positive rate at all thresholds excluding the extremes (0 and 1). This is demonstrated by Figure 1.
